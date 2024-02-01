@@ -6,6 +6,7 @@ function showMessage(response) {
 
     // Set button position to absolute
     noButton.style.position = "absolute";
+    noButton.style.opacity = 0.8;
 
     // Change image source to "gun.gif"
     document.getElementsByClassName("image")[0].src = "images/gun.gif";
@@ -26,9 +27,9 @@ function showMessage(response) {
   }
 
   if (response === "Yes") {
-    // Remove name message and no button
+    // Remove message and buttons
     document.getElementById("title").remove();
-    document.getElementById("no-button").remove();
+    document.getElementById("buttons").remove();
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("text");
@@ -37,7 +38,5 @@ function showMessage(response) {
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/happycat.gif";
 
-    // Remove yes button
-    document.getElementById("yesButton").remove();
   }
 }

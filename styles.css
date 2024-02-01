@@ -13,15 +13,17 @@ body {
 
 .hh{
     -webkit-text-stroke: 2px #71004f;
-    font-weight:900;
-
+    font-weight:150;
+    font-size: 50px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .pp{
     -webkit-text-stroke: 2px #71004f;
-    font-size: 50px;
+    font-size: 40px;
     font-style: oblique;
-    font-weight: 800;
+    font-weight: 75;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .container {
@@ -37,7 +39,8 @@ body {
 }
 
 .image{
-    height: 280px; 
+    height: 280px;
+    padding: 50px 0px 0px 0px;
 }
 
 .buttons button {
@@ -55,19 +58,15 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #7c1f37;
-
+    background-color: #a52848;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .buttons{
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
-
-.hidden-message {
-    display: none;
-    margin-top: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .move {
