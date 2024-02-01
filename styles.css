@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Change to a romantic cursive font */
     background-color: #ffdde1;
     display: flex;
     align-items: center;
@@ -10,20 +10,19 @@ body {
     font-size: 35px;
     color: rgb(255, 0, 174);
 }
+
 .hh{
     -webkit-text-stroke: 2px #71004f;
     font-weight:900;
 
 }
+
 .pp{
     -webkit-text-stroke: 2px #71004f;
-
     font-size: 50px;
     font-style: oblique;
     font-weight: 800;
 }
-
-body
 
 .container {
     width: 100%;
@@ -38,8 +37,7 @@ body
 }
 
 .image{
-    height: 280px;
-    
+    height: 280px; 
 }
 
 .buttons button {
@@ -52,7 +50,7 @@ body
     font-size: 26px;
     cursor: pointer;
     position: relative;
-    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Change to a romantic cursive font */
 
 }
 
@@ -65,10 +63,6 @@ body
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
-
-#no-button{
-    
 }
 
 .hidden-message {
