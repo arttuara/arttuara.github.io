@@ -20,7 +20,7 @@ function showMessage(response) {
     noButton.style.top = randomY + "px";
 
     // Update text content and hide name message
-    document.getElementById("text").textContent = "The no button is just for visuals";
+    document.getElementById("text").textContent = "Ei-nappula on vain illuusio";
     document.getElementById("title").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
@@ -33,7 +33,7 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("text");
-    yesMessage.textContent = "YAY! See you on the 14th babygirl😘";
+    yesMessage.textContent = "JEEE! Nähdään 14. päivä pookie😚🩷";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/happycat.gif";
