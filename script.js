@@ -33,7 +33,7 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("text");
-    yesMessage.textContent = "JEE! Nähdään 14. päivä pookie😚🩷";
+    yesMessage.textContent = "JEE! Nähdään 14. päivä pookie 😚🩷";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/happycat.gif";

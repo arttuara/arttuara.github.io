@@ -1,10 +1,6 @@
-@font-face {
-    font-family: 'Comic Sans MS';
-    src: url("comic-sans-ms/comici.ttf");
-  }
 
 html {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Caveat", cursive;
 }
 
 body {
@@ -19,16 +15,27 @@ body {
     color: rgb(255, 0, 174);
 }
 
+.caveat-font {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .hh{
     -webkit-text-stroke: 1px #71004f;
     font-weight:150;
-    font-size: 50px;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .pp{
     -webkit-text-stroke: 1px #71004f;
-    font-size: 40px;
-    font-weight: 75;
+    font-size: 50px;
+    font-weight: 150;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -58,7 +65,7 @@ body {
     font-size: 26px;
     cursor: pointer;
     position: relative;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Caveat", cursive;
 }
 
 .buttons button:hover {
