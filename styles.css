@@ -26,16 +26,16 @@ body {
     -webkit-text-stroke: 1px #71004f;
     font-weight:150;
     font-size: 70px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .pp{
     -webkit-text-stroke: 1px #71004f;
     font-size: 50px;
     font-weight: 150;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container {
