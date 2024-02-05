@@ -3,9 +3,8 @@
     src: url("comic-sans-ms/comici.ttf");
   }
 
-
 html {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 body {
@@ -29,7 +28,6 @@ body {
 .pp{
     -webkit-text-stroke: 1px #71004f;
     font-size: 40px;
-    /*font-style: oblique;*/
     font-weight: 75;
 }
 
@@ -60,7 +58,7 @@ body {
     font-size: 26px;
     cursor: pointer;
     position: relative;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 .buttons button:hover {
