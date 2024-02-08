@@ -26,6 +26,7 @@ function showMessage(response) {
     // Optional: You can also add a timeout to reset the position after a few seconds
   }
 
+    // tämä on kommentti :D
   if (response === "Yes") {
     // Remove message and buttons
     document.getElementById("title").remove();
